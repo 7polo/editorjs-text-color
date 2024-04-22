@@ -1,0 +1,18 @@
+.ce-inline-tool--text-color {
+  width: 18px;
+}
+
+.ce-inline-tool--text-color-picker {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+}
+
+.ce-inline-tool--text-color-picker-container {
+  position: absolute;
+  z-index: 999;
+}
+
+.ce-inline-tool--text-color-picker-container > .pickr {
+  visibility: hidden;
+}
